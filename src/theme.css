@@ -1,0 +1,85 @@
+/* iOS-style font */
+body,
+.font-sf {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+/* === DARK MODE === */
+.bg-dark {
+  background-color: #121212;
+}
+
+.input-dark {
+  background-color: #2a2a2e;
+  color: #ffffff; /* Full white text */
+  border: 1px solid #3f3f46;
+}
+
+.input-dark::placeholder {
+  color: #bbbbbb; /* Light placeholder */
+}
+
+.input-dark:focus {
+  outline: none;
+  border-color: #0a84ff;
+  box-shadow: 0 0 0 1px #0a84ff;
+}
+
+.card-dark {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.result-card {
+  background-color: #292929;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  border-left: 4px solid #0a84ff;
+}
+
+/* === LIGHT MODE === */
+.bg-white {
+  background-color: #f9f9fb;
+}
+
+.input-light {
+  background-color: #ffffff;
+  color: #111111;
+  border: 1px solid #d1d5db;
+}
+
+.input-light::placeholder {
+  color: #777777;
+}
+
+.input-light:focus {
+  border-color: #007aff;
+  box-shadow: 0 0 0 1px #007aff;
+}
+
+.card-light {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.text-black {
+  color: #000000;
+}
+
+.bg-white .result-card {
+  background-color: #f3f4f6;
+  color: #111111;
+  border-left: 4px solid #2563eb;
+}
